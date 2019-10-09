@@ -1,4 +1,4 @@
-# This is the code that runs this example.
+# -*- coding: utf-8 -*-
 from pessoa import Pessoa
 import Pyro4
 

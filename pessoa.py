@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import print_function
 
 
@@ -12,7 +13,7 @@ class Pessoa(object):
         print("Obrigado, volte sempre!")
 
     def depositar(self, armazem):
-        print("O armazém contém:", armazem.listar_itens())
+        print("O armazém contém:", str(armazem.listar_itens()))
         item = input("Digite o que você deseja guardar (ou vazio): ").strip()
         if item:
             armazem.guardar(self.nome, item)
